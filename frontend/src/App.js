@@ -18,7 +18,7 @@ import Privacy from './pages/Privacy';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
-const BACKEND_URL = "https://bellefemme-api.onrender.com/api";
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 export const API = `${BACKEND_URL}/api`;
 
 const CartContext = createContext();
@@ -140,3 +140,4 @@ function App() {
 
 
 export default App;
+
