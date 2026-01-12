@@ -95,7 +95,7 @@ const Footer = () => {
               <li className="flex items-start space-x-3">
                 <MapPin size={18} className="text-[#D4AF37] flex-shrink-0 mt-0.5" />
                 <span className="text-gray-400 text-sm">
-                  123 Avenue des Champs-Élysées<br />
+                   Avenue des Champs-Élysées<br />
                   75008 Paris, France
                 </span>
               </li>
@@ -105,7 +105,7 @@ const Footer = () => {
                   href="tel:+33123456789"
                   className="text-gray-400 text-sm hover:text-[#D4AF37] transition-colors"
                 >
-                  +33 1 23 45 67 89
+                  +33 7 86 32 44 11
                 </a>
               </li>
               <li className="flex items-center space-x-3">
@@ -137,5 +137,6 @@ const Footer = () => {
     </footer>
   );
 };
+
 
 export default Footer;
